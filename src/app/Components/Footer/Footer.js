@@ -9,7 +9,7 @@ export default function Footer() {
 
       <main className="bg-[#0A0F1F] w-[70%] mx-auto  text-white flex items-center justify-center border border-white rounded-lg pb-12">
         <div className="relative w-full mx-auto px-4 sm:px-6 lg:px-8">
-          {/* Logo and Navigation */}
+         
           <header className="absolute top-8 left-8">
             <div className="flex items-center space-x-2">
               <Image src="/logo.png" alt="Artie Logo" width={40} height={30} />
@@ -22,7 +22,7 @@ export default function Footer() {
             <a href="#about" className="block text-sm hover:text-gray-300">About us</a>
           </nav>
 
-          {/* Main Content */}
+         
           <section className="mt-24">
             <h2 className="text-lg sm:text-xl lg:text-xl font-extrabold tracking-tight">
               Ready to Elevate Your Design Process to the Next Level?
@@ -31,7 +31,7 @@ export default function Footer() {
               Transform your creative workflow with Artie’s AI-powered tools—automating pricing, timelines, and project briefs with precision so you can focus on what you do best: designing.
             </p>
 
-            {/* CTA Button */}
+            
             <div className="mt-8">
               <a
                 href="#"
@@ -42,7 +42,7 @@ export default function Footer() {
             </div>
           </section>
 
-          {/* Footer */}
+       
           <footer className=" text-sm text-gray-400">
             <p>
               📧 Connect with us:{" "}

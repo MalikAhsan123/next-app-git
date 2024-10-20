@@ -4,7 +4,7 @@ import { FaTachometerAlt, FaFileInvoice, FaUser } from "react-icons/fa"; // Impo
 export default function SideNav() {
   return (
     <div className="mt-12">
-        {/* top nav */}
+     
         <div className="bg-[#08142b] py-3 border-b flex pe-12 justify-end border-[#ffffff4c]">
         <nav>
           <ul className="flex lg:gap-x-10 md:gap-x-10 gap-x-2">
@@ -23,7 +23,7 @@ export default function SideNav() {
           </ul>
         </nav>
         </div>
-      {/* side nav */}
+    
       <nav className="relative top-[-55px] bg-gradient-to-br from-[#1c1b5a] to-[#030816] w-[240px] border border-[#375cc4] text-white shadow-sm p-4 min-h-[1100px] xl:block lg:block sm:hidden hidden">
         <div className="my-4">
           <div className="flex gap-x-3">
